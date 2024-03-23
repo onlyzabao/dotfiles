@@ -1,0 +1,16 @@
+# Color
+import = ["~/.config/alacritty/dracula.toml"]
+
+# Window
+[window]
+dimensions = { columns = 104, lines = 30 }
+opacity = 0.8
+
+# Font
+[font]
+normal = { family = "JetBrainsMonoNerdFont", style = "Regular" }
+size = 12.0
+
+# Keyboard
+[keyboard]
+bindings = [{ key = "W", mods = "Control", mode = "~Search", action = "Quit" }]
