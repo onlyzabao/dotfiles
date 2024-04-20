@@ -118,3 +118,10 @@ unset __conda_setup
 # Starship
 eval "$(starship init zsh)"
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
+
+# Nvidia CUDA
+export PATH=/usr/local/cuda-12.4/bin${PATH:+:${PATH}}
+export LD_LIBRARY_PATH=/usr/local/cuda-12.4/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+
+# Android SDK
+export ANDROID_HOME=~/Android/Sdk
