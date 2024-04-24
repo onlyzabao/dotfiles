@@ -1,6 +1,7 @@
 format = """
 $directory\
 $git_branch\
+$git_commit\
 $git_status\
 $conda\
 $cmd_duration
@@ -31,3 +32,7 @@ truncation_symbol = '…/'
 
 [git_status]
 disabled = true
+
+[git_commit]
+format = 'on [\($hash$tag\)]($style) '
+style = 'bold purple'
