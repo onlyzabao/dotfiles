@@ -5,6 +5,8 @@ import = ["~/.config/alacritty/dracula.toml"]
 [window]
 dimensions = { columns = 104, lines = 30 }
 opacity = 0.8
+decorations = "None"
+padding = { x = 10, y = 10 }
 
 # Font
 [font]
