@@ -133,6 +133,3 @@ unset __conda_setup
 # Starship
 eval "$(starship init zsh)"
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
-
-# Android SDK
-export ANDROID_HOME=~/Android/Sdk
